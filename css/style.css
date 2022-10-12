@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: poppins;
+}
+
+body {
+    background: linear-gradient(to right, rgb(87, 8, 161) 0%, rgb(139, 35, 237) 100%);
+}
+
+.card-time .container .row .col .card {
+    margin-top: 2px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 15px;
+}
+
+.card-time .container .col .card .img {
+    min-height: 290px;
+    max-height: 290px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.card-time .container .row .col .card .card-body .cent-time {
+    font-size: 30px;
+    font-weight: 600;
+    background-color: bisque;
+    border-radius: 12px;
+}
+
+.card-time .container .row .col .card .card-body .bott-date {
+    background-color: white;
+    font-size: 16px;
+}
+
+.card-time .container .row .col .card .card-body .bott-name {
+    background-color: white;
+    font-size: 16px;
+} 
+
+@media (max-width:768px) {
+ 
+    .card-time .container .col .card .img {
+        min-height: 280px;
+        max-height: 280px;
+        border-radius: 6px;
+        object-fit: cover;
+    }
+    
+    .card-time .container .row .col .card .card-body .cent-time {
+        border-radius: 28px;
+        font-size: 33px;
+    }
+    
+    .card-time .container .row .col .card .card-body .bott-date {
+        font-size: 16px;
+    }
+    
+    .card-time .container .row .col .card .card-body .bott-name {
+        font-size: 16px;
+    } 
+
+
+}
+
+
+@media (max-width:450px) {
+
+    .card-time .container .col .card .img {
+        min-height: 220px;
+        max-height: 220px;
+        border-radius: 6px;
+        object-fit: cover;
+    }
+    
+    .card-time .container .row .col .card .card-body .cent-time {
+        border-radius: 25px;
+    }
+    
+    .card-time .container .row .col .card .card-body .bott-date {
+        font-size: 15px;
+    }
+    
+    .card-time .container .row .col .card .card-body .bott-name {
+        font-size: 15px;
+    } 
+
+
+}
